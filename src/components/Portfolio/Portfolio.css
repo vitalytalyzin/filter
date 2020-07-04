@@ -1,0 +1,15 @@
+.portfolio__wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 24px;
+}
+
+.toolbar__wrapper {
+  margin-bottom: 24px;
+}
+
+.project-list__wrapper {
+  flex: auto;
+  overflow: auto;
+}

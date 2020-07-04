@@ -1,0 +1,10 @@
+.projects__wrapper {
+  columns: 4 200px;
+  column-gap: 16px;
+}
+
+.projects__img {
+  display: block;
+  max-width: 100%;
+  margin-bottom: 16px;
+}

@@ -1,0 +1,20 @@
+.filters__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.filters__item {
+  padding: 8px 12px;
+  border: 1px solid gray;
+  transition: background-color .3s ease-out, color .3s ease-out;
+  cursor: pointer;
+}
+
+.filters__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.filters__item:hover {
+  background-color: black;
+  color: white;
+}
