@@ -4,7 +4,6 @@ import ProjectList from '../ProjectList/ProjectList';
 import { filters, projects } from './data';
 import './Portfolio.css';
 
-
 const Portfolio = () => {
   const [selectedFilter, setSelectedFilter] = useState('All');
 

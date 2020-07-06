@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './ProjectList.css';
 
 const ProjectList = ({ projects }) => {
@@ -15,6 +16,10 @@ const ProjectList = ({ projects }) => {
       ))}
     </div>
   );
+};
+
+ProjectList.propTypes = {
+  projects: PropTypes.array.isRequired,
 };
 
 export default ProjectList;
